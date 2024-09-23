@@ -27,7 +27,7 @@ function clickBoton(){
 
 function ActualizarLIstaGastos(){
     //recorrer el arreglo(
-    listaNombresGastos.forEach ((elemto, posicion) => {
+    listaNombresGastos.forEach ((elemeto, posicion) => {
         console.log(elemnto);
         console.log(posicion);
 
