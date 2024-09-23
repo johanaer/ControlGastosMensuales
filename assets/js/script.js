@@ -26,10 +26,12 @@ function clickBoton(){
 }
 
 function ActualizarLIstaGastos(){
+    //Agregamos variable para agregar una lista para los alimentos y los valores de cada alimento
+    let htmlLista = '';
     //recorrer el arreglo(
     listaNombresGastos.forEach ((elemeto, posicion) => {
-        console.log(elemnto);
-        console.log(posicion);
+        htmlLista += "<li>" + elemento + "</li>";
 
     });
+    console.log(htmlLista);
 }
