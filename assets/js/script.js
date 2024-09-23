@@ -18,11 +18,11 @@ function clickBoton(){
 
     //alert('click de usuario');
 
-    //llamamos a la funcion es para mostrar los datos que fueron adicionadops por el usuario en la pantalla 
-    ActualizarLIstaGastos();
-
     console.log(listaNombresGastos);
     console.log(listaValoresGastos);
+
+    //llamamos a la funcion es para mostrar los datos que fueron adicionadops por el usuario en la pantalla 
+    ActualizarLIstaGastos();
 }
 
 function ActualizarLIstaGastos(){
