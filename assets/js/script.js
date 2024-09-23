@@ -15,7 +15,22 @@ function clickBoton(){
 
     listaNombresGastos.push(nombreGasto);
     listaValoresGastos.push(valorGasto);
+
     //alert('click de usuario');
+
+    //llamamos a la funcion es para mostrar los datos que fueron adicionadops por el usuario en la pantalla 
+    ActualizarLIstaGastos();
+
     console.log(listaNombresGastos);
     console.log(llistaValoresGastos);
+}
+
+function ActualizarLIstaGastos(){
+    //recorrer el arreglo(
+    listaNombresGastos.forEach ((elemto, posicion) => {
+        console.log(elemnto);
+        console.log(posicion);
+
+        
+    });
 }
