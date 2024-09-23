@@ -22,7 +22,7 @@ function clickBoton(){
     ActualizarLIstaGastos();
 
     console.log(listaNombresGastos);
-    console.log(llistaValoresGastos);
+    console.log(listaValoresGastos);
 }
 
 function ActualizarLIstaGastos(){
