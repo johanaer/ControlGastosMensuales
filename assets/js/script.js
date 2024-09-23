@@ -11,11 +11,11 @@ function clickBoton(){
     console.log(nombreGasto);
     console.log(valorGasto);
 
-    console.log(listaNombresGastos);
 
 
     listaNombresGastos.push(nombreGasto);
     listaValoresGastos.push(valorGasto);
     //alert('click de usuario');
     console.log(listaNombresGastos);
+    console.log(llistaValoresGastos);
 }
