@@ -31,6 +31,5 @@ function ActualizarLIstaGastos(){
         console.log(elemnto);
         console.log(posicion);
 
-        
     });
 }
